@@ -47,4 +47,8 @@ Linux:
 
 **Espero que tenham gostado!** 😏 
 
+**Obs:** Evite ficar repetindo o mesmo de sempre, assim o Bot pode acabar se tornando algo chato.
+
+**Obs²:** Se quiser começar a ter um diálogo com o Bot do 0, apague o arquivo: **"db.sqlite3"**.
+
 ![wall-e-desenho-disney-pixar-0118-1400x800](https://user-images.githubusercontent.com/37316637/45469381-a7077680-b6ff-11e8-8a0e-1b4bc0c2bfbd.jpg)
