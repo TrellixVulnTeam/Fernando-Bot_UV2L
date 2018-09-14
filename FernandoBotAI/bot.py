@@ -5,8 +5,8 @@ from chatterbot import ChatBot
 #Criando o Bot
 bot = ChatBot('Test')
 
-conversaIntroducao = ['oi', 'olá', 'olá, bom dia', 'bom dia', 'bom dia, como vai?', 'estou bem']
-conversaFilmes = ['que filmes você gosta?', 'eu gosto dos vingadores']
+conversaIntroducao = ['oi', 'olá', 'olá, bom dia', 'bom dia', 'bom dia, tudo bem?', 'tudo e vc?', 'estou ótimo']
+conversaFilmes = ['qual seu filme favorito?', 'eu gosto dos vingadores']
 
 #Método de Treinamento
 bot.set_trainer(ListTrainer)
@@ -21,3 +21,4 @@ while True:
         print("Bot: ", resposta)
     else:
         print("Bot: Não entendi")
+
