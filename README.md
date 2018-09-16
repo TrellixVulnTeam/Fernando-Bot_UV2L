@@ -51,4 +51,23 @@ Linux:
 
 **Obs²:** Se quiser começar a ter um diálogo com o Bot do 0, apague o arquivo: **"db.sqlite3"**.
 
+**Obs³:** Você pode apagar a parte **Confiança do Bot**, isso vai fazer que a conversa se desenrole mais rápido, porém ele vai responder aleatoriedades com mais frequência.
+
+**Antes:**
+  
+    if float(resposta.confidence) > 0.5:
+    
+        print("Bot: ", resposta)
+        
+    else:
+    
+        print("Bot: Não entendi")
+        
+        
+**Depois:**
+  
+    print("Bot: ", resposta)
+    
+       
+
 ![wall-e-desenho-disney-pixar-0118-1400x800](https://user-images.githubusercontent.com/37316637/45469381-a7077680-b6ff-11e8-8a0e-1b4bc0c2bfbd.jpg)
